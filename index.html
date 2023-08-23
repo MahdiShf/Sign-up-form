@@ -16,17 +16,23 @@
         Sign up now to get started.<br /><br />
         You know you want to.
       </h1>
+
       <form action="#" method="post">
+        <!-- user sign-up form -->
         <section class="container">
           <fieldset>
             <legend>Let's do this!</legend>
+            <!-- input field for first name -->
             <label for="first-name">FIRST NAME :</label>
             <input type="text" id="first-name" name="first-name" required />
+            <!-- input field for last name -->
             <label for="last-name">LAST NAME :</label>
             <input type="text" id="last-name" name="last-name" required />
+            <!-- input field for email -->
             <label for="email">EMAIL :</label>
             <input type="email" id="email" name="email" required />
             <div class="right-side">
+              <!-- input field for phone number -->
               <label for="phone-number">PHONE NUMBER :</label>
               <input
                 type="tel"
@@ -36,6 +42,7 @@
                 minlength="12"
                 required
               />
+              <!-- input field for password -->
               <label for="password">PASSWORD :</label>
               <input
                 type="password"
@@ -54,6 +61,7 @@
             </div>
           </fieldset>
         </section>
+        <!-- submit button to create the account -->
         <input type="submit" value="Create Account" />
       </form>
       <p class="account">
@@ -61,7 +69,11 @@
         <a href="#">Log in</a>
       </p>
       <div class="image-sidebar">
-        <img class="logo" src="./Assets/Logo/Samurai Logo.png" />
+        <img
+          class="logo"
+          src="./Assets/Logo/Samurai Logo.png"
+          alt="Samurai logo"
+        />
         <h3 class="logo-caption">Samurai</h3>
       </div>
       <div class="image-credits">
